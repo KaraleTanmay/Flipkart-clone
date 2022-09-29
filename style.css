@@ -1,0 +1,90 @@
+header{
+    position: sticky;
+    top: 0;
+    min-height: 8vh;
+    width: 100%;
+    font-family: Roboto,Arial,sans-serif;
+}
+#flipkart-logo img{
+    width: 5vw;
+}
+.blank{
+    width: 11vw;
+    background-color: red;
+}
+.nav-menu{
+    width: 71vw;
+}
+#search-box{
+    width: 35vw;
+    height: 5vh;
+    border: none;
+}
+.search-btn{
+    position: relative;
+    right: 3px;
+    width: 3vw;
+    height: 5vh;
+    border: none;
+}
+#login-btn{
+    padding: 0.4rem 2rem;
+}
+
+
+
+.items img{
+    display: block;
+    height: 9vh;
+    margin-bottom: 0.3rem;
+}
+.verieties{
+    width: 80vw;
+}
+#deals{
+    min-height: 16vh;
+    font-family: Roboto,Arial,sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#correction-1{
+    margin: 0 1.5rem;
+}
+
+.sliding-images img{
+    margin: 1.3rem 0;
+    width: 99vw;
+}
+.bank-offers img{
+    width: 99vw;
+}
+.purchase img{
+    width: 100vw;
+}
+
+@media (max-width: 1000px){
+    .blank{
+        width: 0px;
+    }
+    .header{
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    #flipkart-logo img{
+        margin-left: 1rem;
+        width: 10vw;
+    }
+    .nav-menu{
+        width: 90vw;
+
+    }
+    .search-btn{
+        max-width: 3vw;
+    }
+    .search-box{
+        max-width: 35vw;
+    }
+    #login-btn{
+        max-width: 5vw;
+        padding: 3px 5px;
+    }
+}
